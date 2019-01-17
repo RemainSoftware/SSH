@@ -1,5 +1,3 @@
-#!/bin/bash
-
 go='1';
 if [ -f ".bashrc" ]
 then
