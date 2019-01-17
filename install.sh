@@ -17,7 +17,9 @@ then
   exit 1;
 fi
 
-cp SSH/bashrc .bashrc
-cp SSH/profile .profile
+echo "cp SSH/bashrc .bashrc";
+cp SSH/bashrc .bashrc;
+echo "cp SSH/profile .profile";
+cp SSH/profile .profile;
 
-echo "Installed. Please run SSHD and use putty or SSH to login."
+echo "Installed. Run SSHD (STRTCPSVR SERVER(*SSHD)) and use putty or SSH to login."
