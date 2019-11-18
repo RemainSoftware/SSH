@@ -1,1 +1,1 @@
-exec /Qopensys/QIBM/ProdData/OPS/tools/bin/bash
+exec /Qopensys/pkgs/bin/bash
