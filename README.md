@@ -9,7 +9,7 @@ https://sobo.red/2017/04/25/pretty-bash-configuration-with-ibm-i-helpers/
 # How to install from the green screen
 * QSH
 * pwd # makes sure you are in your home directory. If not, update you userprofile
-* git clone https://github.com/RemainSoftware/SSH.git
+* git -c http.sslVerify=false clone https://github.com/remainsoftware/SSH
 * SSH/install.sh
 * quit
 * STRTCPSVR *SSHD
